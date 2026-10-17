@@ -130,7 +130,7 @@ const Contact = () => {
     if (!serviceId || !templateId || !publicKey) {
       setLoading(false);
       // Fallback: open mailto directly
-      window.location.href = `mailto:mradulm148@gmail.com?subject=Project Inquiry from ${encodeURIComponent(
+      window.location.href = `mailto:varun.kapoor.222244@gmail.com?subject=Project Inquiry from ${encodeURIComponent(
         form.name
       )}&body=${encodeURIComponent(form.message)}`;
       showToast("Opening default mail client with your message.");
@@ -166,7 +166,7 @@ const Contact = () => {
           console.error(error);
           play?.("error");
           showToast("Failed to transmit via EmailJS. Opening mail client instead.", "error");
-          window.location.href = `mailto:mradulm148@gmail.com?subject=Project Inquiry from ${encodeURIComponent(
+          window.location.href = `mailto:varun.kapoor.222244@gmail.com?subject=Project Inquiry from ${encodeURIComponent(
             form.name
           )}&body=${encodeURIComponent(form.message)}`;
         }
