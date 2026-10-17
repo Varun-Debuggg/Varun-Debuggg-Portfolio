@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+//import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -11,6 +11,7 @@ import coursera from "./achievement/Coursera.png";
 import hr from "./achievement/HR.jpg";
 import cp from "./achievement/Certiport.jpg";
 import fcc from "./achievement/free_code_camp.jpg";
+import google from "./achievement/google.svg";
 
 import novalearn from "./project/novalearn.png";
 import novalearn1 from "./project/novalearn1.png";
@@ -85,7 +86,7 @@ export {
   project,
   skills,
   contact,
-  logo,
+  // logo,
   backend,
   creator,
   mobile,
@@ -97,6 +98,7 @@ export {
   hr,
   cp,
   fcc,
+  google,
   novalearn,
   novalearn1,
   novalearn2,

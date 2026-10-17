@@ -33,6 +33,7 @@ import {
   hr,
   cp,
   fcc,
+  google, 
   ideas,
   concepts,
   designs,
@@ -55,7 +56,7 @@ export const personalInfo = {
   portfolio: "https://varun-kapoor-portfolio.vercel.app",
   kartoUrl: "https://karto.online",
   kartoPlayStore: "https://play.google.com/store/apps",
-  resumeLink: "https://drive.google.com/file/d/1JXxclNaQDOGD9BauEy1jS9XDYk5QsaMa/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/1zgtC37yLUOJSzUnc4k8Qx0BRdkPOwnqY/view",
   photo: varun,
   photoNoir: varunNoir,
   photo3d: developer3d,
@@ -177,20 +178,18 @@ export const achievements = [
     ],
     credential: ["https://learn.microsoft.com/en-us/credentials/certifications/azure-cosmos-db-developer-specialty/"],
   },
-  {
-    title: ["SQL (Advanced) & Problem Solving"],
-    company_name: "HackerRank",
-    icon: hr,
-    iconBg: "#E6DEDD",
-    date: "Certified",
-    points: [
-      "Advanced SQL Query Optimization, Stored Procedures, and Index Tuning",
-      "Complex Joins, Window Functions, and High-Throughput Aggregations"
-    ],
-    credential: [
-      "https://www.hackerrank.com/certificates/633d92ea00fe",
-    ],
-  },
+  // {
+  //   title: ["SQL (Advanced) & Problem Solving"],
+  //   company_name: "HackerRank",
+  //   icon: hr,
+  //   iconBg: "#E6DEDD",
+  //   date: "Certified",
+  //   points: [
+  //     "Advanced SQL Query Optimization, Stored Procedures, and Index Tuning",
+  //     "Complex Joins, Window Functions, and High-Throughput Aggregations"
+  //   ],
+  //   credential: ["https://www.hackerrank.com/certificates/633d92ea00fe"],
+  // },
   {
     title: ["Clean Architecture & Microservices in .NET"],
     company_name: "Enterprise Architecture",
@@ -201,9 +200,43 @@ export const achievements = [
       "Event-Driven Architecture, CQRS, and Repository Design Patterns",
       "SOLID Principles, CI/CD Pipeline Automation, and Docker Containerization"
     ],
-    credential: [
-      "https://github.com/themridul03",
+    credential: ["https://github.com/Varun-Debuggg/"],
+  },
+  {
+    title: ["Microsoft Azure Cosmos DB"],
+    company_name: "Microsoft & Coursera",
+    icon: coursera,
+    iconBg: "#0078d4",
+    date: "Sep 2023",
+    points: [
+      "Completed Microsoft-authorized Azure Cosmos DB course on Coursera",
+      "Hands-on learning in NoSQL data modeling, partitioning strategies, and global distribution"
     ],
+    credential: ["https://www.coursera.org/account/accomplishments/certificate/J9A7B6LS9XS8"],
+  },
+  {
+    title: ["HTML, CSS, and Javascript for Web Developers"],
+    company_name: "Johns Hopkins University & Coursera",
+    icon: coursera,
+    iconBg: "#002D72",
+    date: "Oct 2023",
+    points: [
+      "Completed Johns Hopkins University course on modern web development fundamentals",
+      "Responsive design, DOM manipulation, and interactive UI development with vanilla JS"
+    ],
+    credential: ["https://www.coursera.org/account/accomplishments/certificate/64CHUBY8APBV"],
+  },
+  {
+    title: ["Google Cloud Digital Leader Path"],
+    company_name: "Google",
+    icon: google, 
+    iconBg: "#4285F4",
+    date: "Nov 2023",
+    points: [
+      "Earned 7 Google Cloud completion badges — Generative AI, LLMs, Responsible AI, Digital Transformation, and Cloud Operations",
+      "Silver League — 7045 points on Google Skills platform"
+    ],
+    credential: ["https://www.skills.google/public_profiles/2314004f-30ea-4bb9-bda1-f87a7de70049"],
   },
 ];
 
@@ -229,7 +262,7 @@ export const projects = [
     ],
     image: karto3d,
     images: [karto3d, karto],
-    source_code_link: "https://github.com/themridul03/Portfolio",
+    source_code_link: "https://github.com/Varun-Debuggg/",
     live_demo_link: "https://karto.online",
     play_store_link: "https://play.google.com/store/apps",
     metrics: {
@@ -267,8 +300,8 @@ export const projects = [
     ],
     image: natgashub,
     images: [natgashub],
-    source_code_link: "https://github.com/themridul03",
-    live_demo_link: "https://github.com/themridul03",
+    source_code_link: "https://github.com/Varun-Debuggg/",
+    live_demo_link: "https://github.com/Varun-Debuggg/",
     metrics: {
       stars: 194,
       forks: 38,
@@ -301,8 +334,8 @@ export const projects = [
     ],
     image: natgashub,
     images: [natgashub],
-    source_code_link: "https://github.com/themridul03",
-    live_demo_link: "https://github.com/themridul03",
+    source_code_link: "https://github.com/Varun-Debuggg/",
+    live_demo_link: "https://github.com/Varun-Debuggg/",
     metrics: {
       stars: 188,
       forks: 35,
@@ -334,8 +367,8 @@ export const projects = [
     ],
     image: labmate,
     images: [labmate],
-    source_code_link: "https://github.com/themridul03",
-    live_demo_link: "https://github.com/themridul03",
+    source_code_link: "https://github.com/Varun-Debuggg/",
+    live_demo_link: "https://github.com/Varun-Debuggg/",
     metrics: {
       stars: 156,
       forks: 31,
@@ -370,8 +403,8 @@ export const projects = [
       malariadetectionsystem1,
       malariadetectionsystem2,
     ],
-    source_code_link: "https://github.com/themridul03/MedivueAI",
-    live_demo_link: "https://medivue-ai.vercel.app/",
+    source_code_link: "https://github.com/Varun-Debuggg/MedivueAI",
+    live_demo_link: "https://medivue-ai-varun-debuggg-bice.vercel.app/",
     metrics: {
       stars: 172,
       forks: 41,
@@ -402,8 +435,8 @@ export const projects = [
     ],
     image: homescape,
     images: [homescape],
-    source_code_link: "https://github.com/themridul03/HomeScape",
-    live_demo_link: "https://home-scape-five.vercel.app/",
+    source_code_link: "https://github.com/Varun-Debuggg/HomeScape",
+    live_demo_link: "https://home-scape-varun-debuggg-snowy.vercel.app/",
     metrics: {
       stars: 138,
       forks: 27,
@@ -433,7 +466,7 @@ export const projects = [
     ],
     image: ponggame,
     images: [ponggame],
-    source_code_link: "https://github.com/themridul03/Paddle-Pop",
+    source_code_link: "https://github.com/Varun-Debuggg/Paddle-Pop",
     live_demo_link: "https://paddle-pop-1.onrender.com/",
     metrics: {
       stars: 118,
@@ -465,8 +498,8 @@ export const projects = [
     ],
     image: bytecraft,
     images: [bytecraft],
-    source_code_link: "https://github.com/themridul03/ByteCraft",
-    live_demo_link: "https://byte-craft-snowy.vercel.app/",
+    source_code_link: "https://github.com/Varun-Debuggg/ByteCraft",
+    live_demo_link: "https://byte-craft-varun-debuggg.vercel.app/",
     metrics: {
       stars: 104,
       forks: 19,
@@ -497,8 +530,8 @@ export const projects = [
     ],
     image: mimihotels,
     images: [mimihotels],
-    source_code_link: "https://github.com/themridul03/MIMI-Hotels",
-    live_demo_link: "https://mimi-hotels.vercel.app/",
+    source_code_link: "https://github.com/Varun-Debuggg/MIMI-Hotels",
+    live_demo_link: "https://mimi-hotel-varun-debuggg.vercel.app/",
     metrics: {
       stars: 126,
       forks: 22,
@@ -528,8 +561,8 @@ export const projects = [
     ],
     image: greencross,
     images: [greencross],
-    source_code_link: "https://github.com/themridul03/Green-Cross-Hospital",
-    live_demo_link: "https://green-cross-hospital.vercel.app/",
+    source_code_link: "https://github.com/Varun-Debuggg/Green-Cross-Hospital",
+    live_demo_link: "https://green-cross-hospital-varun-debuggg-livid.vercel.app/",
     metrics: {
       stars: 94,
       forks: 17,
@@ -559,8 +592,8 @@ export const projects = [
     ],
     image: prachini,
     images: [prachini],
-    source_code_link: "https://github.com/themridul03/PrachiniCoffeeShop",
-    live_demo_link: "https://prachini-coffee-shop.vercel.app/",
+    source_code_link: "https://github.com/Varun-Debuggg/PrachiniCoffeeShop",
+    live_demo_link: "https://prachini-coffee-shop-varun-debuggg.vercel.app/",
     metrics: {
       stars: 86,
       forks: 15,

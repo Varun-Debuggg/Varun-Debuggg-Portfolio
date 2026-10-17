@@ -37,4 +37,4 @@ A next-generation developer portfolio featuring immersive 3D animations, interac
 - **Location**: Mohali, Punjab, India
 - **GitHub**: [github.com/varun-debuggg](https://github.com/varun-debuggg)
 - **LinkedIn**: [linkedin.com/in/varun-debuggg](https://www.linkedin.com/in/varun-debuggg)
-- **Projects & Repositories**: Reference base from [github.com/themridul03](https://github.com/themridul03)
+- **Projects & Repositories**: Reference base from [github.com/themridul03](https://github.com/Varun-Debuggg/)
